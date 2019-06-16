@@ -16,4 +16,25 @@ public class CyclicRotationTest {
 
     assertArrayEquals(expected, actual);
   }
+
+  @Test
+  public void testReturnsEmptyArrayIfPassedEmptyArray() {
+    int[] array = new int[] {};
+    int[] actual = CyclicRotation.rotate(array, 4);
+    int[] expected = new int[] {};
+    assertArrayEquals(expected, actual);
+
+    array = new int[] {};
+    actual = CyclicRotation.rotate(array, 2);
+    expected = new int[] {};
+    assertArrayEquals(expected, actual);
+  }
+
+  @Test
+  public void testZeroRotationsReturnsSameArray() {
+    int[] array = new int[] {};
+    int[] actual = CyclicRotation.rotate(array, 0);
+    int[] expected = new int[] {};
+    assertArrayEquals(expected, actual);
+  }
 }
