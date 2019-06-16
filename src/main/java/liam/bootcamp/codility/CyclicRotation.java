@@ -14,9 +14,12 @@ public class CyclicRotation {
 
   private static int[] rotate(int[] array) {
     List<Integer> numbers = toList(array);
-    int element = numbers.remove(numbers.size() - 1);
-    numbers.add(0, element);
+    if(numbers.size() > 0) {
+      int element = numbers.remove(numbers.size() - 1);
+      numbers.add(0, element);
+    }
     return numbers.stream().mapToInt(Integer::intValue).toArray();
+
   }
 
   private static List<Integer> toList(int[] array) {
