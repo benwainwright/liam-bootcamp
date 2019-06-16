@@ -28,7 +28,6 @@ public class CyclicRotation {
       numbers.add(0, element);
     }
     return numbers.stream().mapToInt(Integer::intValue).toArray();
-
   }
 
   private static List<Integer> toList(int[] array) {
