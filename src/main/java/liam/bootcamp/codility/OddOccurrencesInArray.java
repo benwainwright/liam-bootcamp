@@ -17,8 +17,7 @@ public class OddOccurrencesInArray {
       }
 
       for(int i : numbers.keySet()) {
-        System.out.println(i);
-        if(numbers.get(i) % 2 != 0) {
+x        if(numbers.get(i) % 2 != 0) {
           return i;
         }
       }
