@@ -42,7 +42,9 @@
 - In the parent function, write some code that describes the main part of your algorithm, **pretending the empty functions work**
 - Once you are happy that it makes sense, implement the **sub-problem** functions individually
 - Consider writing tests for your sub problem functions to help you complete them faster
-- Trust the IDE/Compiler. In **almost all cases** Your code should be free of squiggley lines and the compiler should not output any warnings
+- As soon as you get to a point where you think it might be working, run all of your tests
+- If they don't all pass, make **small changes** and run them again
+- Trust the IDE/Compiler, because they are almost always right. In **almost all cases** Your code should be free of squiggley lines and the compiler should not output any warnings
 
 ## If you are stuck or it doesn't work
 
