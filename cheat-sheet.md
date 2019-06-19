@@ -45,6 +45,7 @@
 - As soon as you get to a point where you think it might be working, run all of your tests
 - If they don't all pass, make **small changes** and run them again
 - Trust the IDE/Compiler, because they are almost always right. In **almost all cases** Your code should be free of squiggley lines and the compiler should not output any warnings
+- If you are pairing with someone, get in the habit of talking through your approach as you write code. Interviewers will be looking for this.
 
 ## If you are stuck or it doesn't work
 
