@@ -18,6 +18,6 @@ In preparation for this week I set up the codebase for you to solve problems in.
 
 ## Problems
 
-|Name      |Specification        |Complete By  |
-|----------|---------------------|-------------|
-|One Away  |CTIC - 1.5 (page 196)|4th July 2019|
+|Name                             |Complete By  |
+|---------------------------------|-------------|
+|[One Away](problems/oneaway.md)  |4th July 2019|
