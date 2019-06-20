@@ -18,4 +18,6 @@ In preparation for this week I set up the codebase for you to solve problems in.
 
 ## Problems
 
-1. [Task one](problems/taskone.md) - due 4th July 2019
+|Problem                        |Complete By  |
+|-------------------------------|-------------|
+|[Task One](problems/taskone.md)|4th July 2019|
