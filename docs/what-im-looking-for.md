@@ -15,7 +15,8 @@ This document sets out what I will be looking for when I do code reviews. It mig
 
 ## Clean build and test run
 
-When I check out the code, I should be able to build your code and run any tests you have written **without any errors or warning**. If I've asked you to build an application, I should be able to run it without errors and it should be clear how to do so.
+* When I check out the code, I should be able to build your code and run any tests you have written **without any errors or warning**.
+* If I've asked you to build an application, it should be clear to me how to run the application once it has been buil
 
 ## Does it do what was asked
 
@@ -25,7 +26,7 @@ When I check out the code, I should be able to build your code and run any tests
 
 ## Consistent Style
 
-For code style, you should follow the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). This [can be automated](https://github.com/google/google-java-format) - but you will have to work out how to set that up yourself.
+* For code style, you should follow the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). This [can be automated](https://github.com/google/google-java-format) - but you will have to work out how to set that up yourself.
 
 ## Self Documenting Code
 
@@ -70,7 +71,8 @@ public class App {
 
 ## (almost) always Handle Return Values
 
-In almost all cases, ignoring the return value from a function is a bug or an oversight. If you write a function that is non void and you call it, you should be doing something with the value it returns unless there is a very good reason.
+* In almost all cases, ignoring the return value from a function is a bug or an oversight.
+* If you write a function that is non void and you call it, you should be doing something with the value it returns unless there is a very good reason.
 
 ## Short Functions that do one thing
 
@@ -103,7 +105,10 @@ public void testMyCrazyMethodReturnsTrueWhenPassedAListOfEvenNumbers() {
 
 ## Comment WHY not WHAT
 
-In general avoid comments that describe **what** the code is doing. If you feel like you write a comment, consider whether you could improve the situation by just naming something better. Modern clean code practises suggest you use comments to describe **why** you are doing something unexpected. However, this is unlikely to come up at all in this kind of problem solving; but might in your final year project.
+* avoid comments that describe **what** the code is doing.
+* Modern clean code practises suggest you use comments to describe **why** you are doing something unexpected. However, this is unlikely to come up at all in this kind of problem solving; but might in your final year project.
+
+If you feel like you write a comment, consider whether you could improve the situation by just naming something better.
 
 ## Appropriate error handling
 
