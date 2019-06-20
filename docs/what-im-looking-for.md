@@ -89,6 +89,7 @@ In almost all cases, ignoring the return value from a function is a bug or an ov
 
 ```java
 // This is BAD
+@Test
 public void testMyCrazyMethodFunctionality() {
   // test code
 }
