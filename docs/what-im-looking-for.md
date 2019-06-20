@@ -33,7 +33,7 @@ This means in general it should be **blindingly obvious** what a thing (function
 
 * "goo" is no longer an acceptable package name :wink:
 * Abbreviations are never acceptable unless it is widely understood (e.g. "DNS")
-* Numbering variables or parameters (e.g. `int foo1; int foo2`) are *rarely* acceptable and are often a sign that you need to consider a collection type
+* Numbering variables or parameters (e.g. `int foo1; int foo2`) are *rarely* acceptable. If you find yourself doing this, it is often a sign that you need to consider a collection type
 
 ## No Magic Numbers
 
