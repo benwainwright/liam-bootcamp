@@ -31,7 +31,7 @@ For code style, you should follow the [Google Java Style Guide](https://google.g
 
 This means in general it should be **blindingly obvious** what a thing (functions, classes, packages, variables etc.) does or is for from its name without looking at the implementation. More specifically this means:
 
-* "goo" is no longer an acceptable package name :wink"
+* "goo" is no longer an acceptable package name :wink:
 * Abbreviations are never acceptable unless it is widely understood (e.g. "DNS")
 * Numbering variables or parameters (e.g. `int foo1; int foo2`) are *rarely* acceptable and are often a sign that you need to consider a collection type
 
