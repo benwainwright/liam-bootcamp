@@ -14,10 +14,10 @@ In preparation for this week I set up the codebase for you to solve problems in.
 * Once you've finished the setup, please don't commit to the `master` branch directly. Problems should be solved **on a branch**. When you think you are done, raise a [pull request](https://help.github.com/en/articles/creating-a-pull-request)
 * Create an entirely new package for each new problem
 * Once you submitted a PR, I'll review your code based on the guidelines provided [here](what-im-looking-for.md)
-* I'll provide feedback, and either ask you to make changes, or if I'm happy, I'll merge it into master
+* I'll provide feedback, and either ask you to make changes or merge into master
 
 ## Problems
 
 |Problem                        |Complete By  |
 |-------------------------------|-------------|
-|[Task One](problems/taskone.md)|4th July 2019|
+|One Away (CTCI:1.5 page 91)    |4th July 2019|
