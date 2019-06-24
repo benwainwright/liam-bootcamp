@@ -18,7 +18,13 @@ It is quite common for programs to separate arguments passed in on the command l
 java liam.bootcamp.App foo --baz bar bosh --biz bop bash
 ```
 
-would represent the following **named** arguments:
+would be passed into the program as the following array
+
+```java
+String[] args = {"foo", "--baz", "bar", "bosh", "--biz", "bop", "bash"}
+```
+
+but would actually represent the following **named** arguments:
 
 * "baz" with the value of "bar"
 * "biz" with the value of "bop"
