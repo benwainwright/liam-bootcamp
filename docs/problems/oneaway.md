@@ -7,6 +7,6 @@ There are three types of edits that can be performed on a string - insert a char
 ## Example
 
 * `pale, ple` -> `true`
-* `pales,  pale` -> `false`
+* `pales,  pale` -> `true`
 * `pale, bale` -> `true`
 * `pale, bake` -> `false`
