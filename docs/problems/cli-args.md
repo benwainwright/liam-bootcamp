@@ -49,4 +49,4 @@ biz = "bop"
 
 ## Note
 
-Instead of writing just a function here, I'm asking you to write an actual command line program. You will want to do as little work as possible in the actual main function, rather do most of the work in functions you write to solve the problem which you can then unit test.
+Instead of writing just a function here, I'm asking you to write an actual command line program. You will want to do as little work as possible in the actual main function, rather do most of the work in functions you write to solve the problem; the same rules about testing then apply to those functions.
