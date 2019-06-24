@@ -40,7 +40,7 @@ and the following **positional** arguments
 Write a program that, given a series of arguments passed in on the command line prints out first the **positional** arguments and then the **named** arguments. So for example, given the input provided above, the program should output the following:
 
 ```bash
-java liam.bootcamp.App foo --baz bar bosh --biz bop bash
+% java liam.bootcamp.App foo --baz bar bosh --biz bop bash
 Positional argument values: foo, bosh, bash
 Named argument values:
 baz = "bar"
