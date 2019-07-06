@@ -7,7 +7,8 @@ public class cLine {
         if(args.length > 1){
             removeNamedArgs(args);
             System.out.println("Positional Values: " + posArgs);
-            
+            System.out.println("Named Value Arguments:");
+            printNamedArgs(nameArgs);
         } else if (args.length == 1) {
             posArgs = args;
             System.out.println("Positional Values: " + posArgs );
@@ -16,6 +17,13 @@ public class cLine {
         }
     }
     public String[] removeNamedArgs(String[] list){
-        return null ;
+        int numOfNamed;
+        for (int i = 0;i < list.length;i++){
+            if ()
+        }
+        return null;
+    }
+    public void printNamedArgs(String[] list){
+        
     }
 }
