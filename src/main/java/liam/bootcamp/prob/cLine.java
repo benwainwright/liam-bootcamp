@@ -21,7 +21,7 @@ public class cLine {
             System.out.println("No suitable values entered.");
         }
     }
-    public HashMap<String, String> removeNamedArgs(ArrayList<String> list){
+    public HashMap<String, String> seperateNamedArgs(ArrayList<String> list){
         HashMap<String, String> nameArgs = new HashMap<String, String>();
         for (int i = 0; i < list.size(); i++){
             if (list.get(i).contains("--")){
