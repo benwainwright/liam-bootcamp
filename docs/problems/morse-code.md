@@ -1,6 +1,6 @@
 # Morse Code
 
-Morse code is a character encoding scheme where letters are encoded as a series of dots and dashes.
+[Morse code](https://en.wikipedia.org/wiki/Morse_code) is a character encoding scheme where letters are encoded as a series of dots and dashes.
 
 ## Problem Statement
 
