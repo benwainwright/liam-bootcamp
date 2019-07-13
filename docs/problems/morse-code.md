@@ -6,10 +6,13 @@ Morse code is a character encoding scheme where letters are encoded as a series 
 
 Write a command line program that can convert **from** letters, numbers and spaces **to** Morse code **and back again**. The program's first argument should indicate whether you are converting **from** or **to** Morse code. Note:
 
-- a "dot" is represented as "."
-- a "dash" is represented as "-"
-- each character is separated by a single space
-- each word is separated by three spaces
+- A "dot" is represented as "."
+- A "dash" is represented as "-"
+- Each character is separated by a single space
+- Each word is separated by three spaces
+- Your code should be case *insensitive*
+- Your code needs to handle only the letters from a-z, spaces, and the numbers from 0-9
+- If the input contains anything else, that is an error
 
 ## Examples
 
