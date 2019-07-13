@@ -23,6 +23,7 @@ Write a command line program that can convert **from** letters, numbers and spac
 Unicorns are pretty
 ```
 
-## Error Handling
+## Error Handling and other expectations
 
-Your program should print *sensible* error messages to the console when the input does not make sense. I'll leave it up to you to decide what that means, but I'll be looking for you to handle *all* reasonable error cases.
+Your program should print *sensible* error messages to the console when the input does not make sense. I'll leave it up to you to decide what that means, but I'll be looking for you to handle *all* reasonable error cases. As always, I'm expecting you to follow the guidelines laid out [in my guideline document](../what-im-looking-for.md)
+
